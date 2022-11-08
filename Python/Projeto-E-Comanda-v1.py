@@ -47,7 +47,7 @@ class faz_pedido:
     def pede_comida(self):
         pedido_comida_confirma = 2
         while pedido_comida_confirma == 2:
-            faz_pedido.comida = input("Qual sera seu pedido para comer? \n XSALADA \n XBURGUER \n XFRANGO \n")
+            faz_pedido.comida = input("Qual sera seu pedido para comer? \n XSALADA ** Pão,carne,alface,tomate ** \n XBURGUER ** Pão,carne e musarela** \n XFRANGO ** Pão,300g de filé de frango,musarela, presunto ** \n")
             print("Confirmar pedido?",faz_pedido.comida)
             pedido_comida_confirma = int(input("1 - Sim / 2 - Nao \n"))
 
